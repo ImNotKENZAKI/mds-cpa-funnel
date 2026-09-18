@@ -1,4 +1,4 @@
-# MDS Insurance & CPA — Scroll Choreography V6
+# MDS Insurance & CPA — Scroll Choreography V6.1
 
 September 18, 2026. Target handoff: September 21, 2026.
 One unified audience. One funnel. Landing page, Step 2, and Thank You.
@@ -7,7 +7,7 @@ One unified audience. One funnel. Landing page, Step 2, and Thank You.
 
 Open index.html, or serve this folder with a static server. The checked browser is Chromium. Manrope and Newsreader load through Google Fonts; readable system fallbacks remain available.
 
-- Watch the hero assemble: five touchpoints expand from a compact stack, with connecting lines and rings drawing into place. Website, CRM & automation, Follow-up & booking, and Content & creative then cycle automatically every 5.6 seconds. The discovery-call CTA remains.
+- Watch the hero assemble: five touchpoints expand from a compact stack, with connecting lines and rings drawing into place. Website, CRM & automation, Follow-up & booking, and Content & creative then cycle automatically every 3 seconds. The discovery-call CTA remains.
 - Scroll through the services: the website unfolds, the phone rises into place, CRM rows slide in, and the content image wipes on with an editing timeline. Supporting cards and process steps appear in sequence. These entrances run once when reached and then settle.
 - Pause motion in the header. Reduced-motion preference removes continuous animation and preserves every manual control.
 - Explore the inquiry workflow, then the CRM, automation, calendar, and reporting demos.
@@ -46,4 +46,5 @@ Extract the ZIP and upload its CONTENTS to the new site root. index.html belongs
 This release includes only the required pages, shared assets, source, and handoff documents. Earlier release ZIPs and the original Medical/Real Estate packages remain preserved. Existing MDS websites were not modified. Intermediate experiment files and unused imagery are excluded from the release archive.
 
 See QA-REPORT.md for local verification and remaining live checks. This is a revised design ready for owner review, not a claim of final visual approval.
+
 

@@ -34,3 +34,8 @@ The release manifest verifies root-ready paths, per-file byte hashes, and packag
 
 Forms and calendar remain explicitly labeled browser-local previews. No real CRM contact, notification, sheet entry, inquiry, or appointment was created. Live GHL forms, privacy/consent links, contact association, pipeline/Sheets updates, calendar/timezone, success confirmation, redirects, and branded-host testing remain required after the GHL swap.
 
+
+## V6.1 hero timing adjustment
+
+Hero chapters now switch every 3 seconds. Observed intervals were 3010, 2993, and 3001ms across the natural four-chapter loop. Supporting chapter effects run at 65% of their previous duration; the longest completes within the new interval. Scene transitions take 700ms. Global pause and absence of page errors passed in Chromium. Section entrance timing is unchanged. Evidence: review-tools/check-fast-hero.cjs.
+

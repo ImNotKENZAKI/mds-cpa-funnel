@@ -95,7 +95,11 @@
   let assembled = false;
   const chapterActions = new Set();
   function cue(element, frames, options) {
-    const action = play(element, frames, options);
+    const action = play(element, frames, {
+      ...options,
+      duration: (options.duration || 950) * .65,
+      delay: (options.delay || 0) * .65
+    });
     if (!action) return;
     chapterActions.add(action);
     action.finished.then(() => chapterActions.delete(action), () => chapterActions.delete(action));

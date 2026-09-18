@@ -58,7 +58,7 @@
       followup: 'Agreed follow-up and a connected calendar help the conversation move toward a consultation.',
       content: 'Branded visuals, social media support, and edited video give your expertise a consistent voice and a clear next step.'
     };
-    const duration = 5600;
+    const duration = 3000;
     let index = 0, visible = false, timer = 0, progress = null;
     let elapsed = 0, started = 0;
     const resizeScene = () => firm.style.setProperty('--scene-scale', (viewport.clientWidth / 700).toFixed(4));

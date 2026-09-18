@@ -47,7 +47,7 @@ h2 em,h3 em { color:var(--emerald); }
 .scene-tracer { stroke-dashoffset:0; }
 .scene-tracer { animation:none; }
 
-.scene-layer { position:absolute; transition:transform 1s cubic-bezier(.22,.8,.2,1),opacity .7s,border-color .7s; backface-visibility:hidden; }
+.scene-layer { position:absolute; transition:transform .7s cubic-bezier(.22,.8,.2,1),opacity .45s,border-color .45s; backface-visibility:hidden; }
 .scene-browser { width:458px; left:50px; top:91px; background:#f8f5ec; color:#193b2e; border:1px solid #cfbd86; border-radius:5px; overflow:hidden; transform:rotateY(-12deg) rotateX(7deg) rotateZ(-4deg); box-shadow:0 20px 35px #02150f38; z-index:3; }
 .scene-chrome { display:flex; justify-content:space-between; align-items:center; padding:8px 12px; background:#e9e8db; font-size:6px; color:#4e6958; }
 .scene-chrome>span:first-child { font-size:17px; line-height:.5; letter-spacing:2px; }
